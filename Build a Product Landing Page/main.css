@@ -1,0 +1,41 @@
+*
+{
+	background:#eee;
+}
+/*-------------------------Header ------------------------------- */
+header
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: minmax(200px,auto);
+
+}
+#header-img
+{
+	max-width:300px;
+}
+ul
+{
+	display: flex;
+	justify-content: space-between;
+}
+#nav-bar li 
+{
+	list-style: none;
+}
+#nav-bar a 
+{
+	text-decoration:none;
+	color: black;
+}
+
+/*-------------------------Form ------------------------------- */
+#form
+{
+	text-align: center;
+	margin-top:0;
+}
+#email
+{
+	background:#fff;
+}
